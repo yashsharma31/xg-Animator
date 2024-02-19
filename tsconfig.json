@@ -16,6 +16,11 @@
       "@components/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/api/compile-video.ts"
+  ],
   "exclude": ["node_modules"]
 }
